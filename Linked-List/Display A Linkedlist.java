@@ -60,6 +60,9 @@ public class Main {
 
     public void display(){
       // write code here
+      if(size==0){
+        return;
+      }
       for(Node temp = this.head; temp!= null ; temp = temp.next){
         System.out.print(temp.data + " ");
       }
